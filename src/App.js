@@ -1,10 +1,13 @@
 import logo from './logo.svg';
+import { Route, Routes } from "react-router-dom";
 import './App.css';
-
+import Home from "./Routes/Home";
 function App() {
   return (
     <div className="App">
-      <h1>Huzaifa PortFolio Web Application</h1>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
     </div>
   );
 }
