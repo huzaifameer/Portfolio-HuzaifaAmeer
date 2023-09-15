@@ -22,11 +22,6 @@ export const MenuItems = [
       URL: "/Contact",
       cName: "nav-links",
       icon: "fa-solid fa-address-book"
-    },
-    {
-      title: "Sign Up",
-      URL: "/Signup",
-      cName: "nav-links-mobile"
     }
   ];
   
