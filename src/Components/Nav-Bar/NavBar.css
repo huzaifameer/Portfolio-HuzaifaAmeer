@@ -1,3 +1,6 @@
+body{
+    background-color: #C6E1F3;
+}
 .nav-bar-items {
     background-color: #fff;
     display: flex;
@@ -7,15 +10,15 @@
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
     width: 95%;
     height: 80px;
-    border-radius: 13px;
+    border-radius: 0 0 10px 10px;
     position: fixed;
-    top: 20px;
+
     left: 50%;
     transform: translate(-50%);
     z-index: 9999;
   }
   .nav-bar-logo {
-    color: #222;
+    color: #001A2D;
     font-size: 2rem;
     cursor: pointer;
   }
@@ -38,7 +41,7 @@
     padding-right: 10px;
   }
   .nav-links:hover {
-    background-color: #33281E;
+    background-color: #001A2D;
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
