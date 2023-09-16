@@ -58,9 +58,9 @@ body{
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    background-color: #005188;
+    background-color: #001A2D;
     color: #fff;
-    box-shadow: 2px 6px 6px 2px #558BAF;
+    box-shadow: 0 6px 6px 0 #558BAF;
   }
   button:hover {
     background-color: #AAD2EE;
@@ -105,7 +105,7 @@ body{
       padding: 2rem 0;
     }
     .nav-links:hover {
-      background-color: #005188;
+      background-color: #001A2D;
       transition: none;
     }
     
