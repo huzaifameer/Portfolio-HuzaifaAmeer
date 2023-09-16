@@ -1,0 +1,133 @@
+.contact-outer{
+    background-image: url(../Assets/ContactPage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+.contact-outer h1{
+    padding: 0.8rem;
+    color: #fff;
+    background-color: #001A2D;
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+}
+
+.contact-outer input{
+    opacity: 80%;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 16px 16px;
+    border: none !important;
+    margin-bottom: 20px;
+}
+.inputData{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont-in{
+    flex-basis: 48%;
+}
+.contact-outer textarea{
+    opacity: 80%;
+    background-color: #fff;
+    width: 70%;
+    font-size: 18px;
+    padding: 16px 16px;
+    border: none !important;
+    margin-bottom: 26px !important;
+}
+.contact-outer input:focus-within{
+    outline: none;
+    border-color: #AAD2EE;
+    border-width: 3px;
+}
+.contact-outer textarea:focus-within{
+    outline: none;
+    border-color: #AAD2EE;
+    border-width: 3px;
+}
+.contact-outer button{
+    border: 2px solid #001A2D;
+    background-color: #AAD2EE;
+    color: #001A2D;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 10px 18px;
+}
+.contact-outer button:hover{
+    opacity: 80%;
+    background-color: #558BAF;
+    color: #fff;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 10px 18px;
+    transition: all 0.4s ease-in-out;
+}
+@media screen and (max-width:750px){
+    .inputData{
+        width: 70%;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cont-in{
+        flex-basis: 48%;
+    }
+}
+@media screen and (max-width:400px) {
+    .inputData{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cont-in{
+        flex-basis: 48%;
+    }
+    .contact-outer h1{
+        border: 2px dotted #001A2D;
+        padding: 0.5rem;
+        color: #fff;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+    .contact-outer input,textarea{
+        background-color: #fff;
+        width: 80%;
+        font-size: 12px;
+        padding: 10px 10px;
+        border-color: #001A2D;
+        margin-bottom: 15px;
+    }
+    .contact-outer textarea{
+        margin-bottom: 17px !important;
+    }
+    .contact-outer button{
+        border: 2px solid #001A2D;
+        background-color: #AAD2EE;
+        color: #001A2D;
+        box-shadow: none;
+        font-size: 10px;
+        padding: 10px 18px;
+    }
+    .contact-outer button:hover{
+        opacity: 80%;
+        background-color: #558BAF;
+        color: #fff;
+        box-shadow: none;
+        font-size: 10px;
+        padding: 10px 18px;
+        transition: all 0.4s ease-in-out;
+    }
+}
