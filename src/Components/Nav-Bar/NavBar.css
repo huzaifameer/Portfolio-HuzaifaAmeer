@@ -58,15 +58,19 @@ body{
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    background-color: #005188;
+    color: #fff;
+    box-shadow: 2px 6px 6px 2px #558BAF;
   }
   button:hover {
-    background-color: #222;
-    color: white;
+    background-color: #AAD2EE;
+    box-shadow: 2px 6px 6px 2px #005188;
+    color: #001A2D;
   }
+
   .menu-icons {
     display: none;
   }
-  
   @media screen and (max-width: 850px) {
     .nav-bar-items {
       z-index: 99;
@@ -101,12 +105,10 @@ body{
       padding: 2rem 0;
     }
     .nav-links:hover {
-      background-color: #01959a;
+      background-color: #005188;
       transition: none;
     }
-    button {
-      display: none;
-    }
+    
     .nav-links-mobile {
       display: block;
       width: 80%;

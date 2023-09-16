@@ -18,10 +18,10 @@ export const MenuItems = [
       icon: "fa-solid fa-briefcase"
     },
     {
-      title: "Contact",
-      URL: "/Contact",
+      title: "Experience",
+      URL: "/Experience",
       cName: "nav-links",
-      icon: "fa-solid fa-address-book"
+      icon: "fa-solid fa-laptop-file"
     }
   ];
   

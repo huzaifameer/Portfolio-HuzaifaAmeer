@@ -28,8 +28,10 @@ class NavBar extends Component {
                 </Link>
               </li>
             );
-          })}          
+          })}   
+          <Link to="/Contact"><button><i class="fa-solid fa-phone"></i><><> </></>Contact</button></Link>      
         </ul>
+        
       </nav>
     );
   }
