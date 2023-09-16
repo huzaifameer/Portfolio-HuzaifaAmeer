@@ -9,7 +9,7 @@ function Project(){
         <Hero
         cName="hero-proj"
         heroImage={ProjectPagePic}
-        title="Projects we've undertaken"
+        title="Our endeavours"
         text=""
         btnClass="hide"
         />
