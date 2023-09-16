@@ -7,7 +7,7 @@ function Home(){
         <>
         <NavBar />
         <Hero
-        cName="hero"
+        cName="hero-mid"
         heroImage={HomePagePic}
         title="Hi Developer !"
         text="Build your dream project with us."
