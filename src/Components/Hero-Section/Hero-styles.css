@@ -24,7 +24,7 @@ img{
 .hero-text h1{
     font-size: 3rem;
     font-weight: 800;
-    background: #fff;
+    color: #fff;
 
 }
 .hero-mid h1{
@@ -66,6 +66,26 @@ img{
     .hero-p{
         font-size: 1.1rem;
         padding: 0 0 2rem 0;
+    }
+    .hero-text .show{
+        padding: 0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .hero-text{
+        padding: 6px 12px;
+    }
+    .hero-text h1{
+        font-size: 1.9rem;
+        font-weight: 800;
+        color: #fff;
+    
+    }
+    .hero-p{
+        font-size: 1rem;
+        padding: 0 0 1.5rem 0;
     }
     .hero-text .show{
         padding: 0.6rem 1.1rem;
