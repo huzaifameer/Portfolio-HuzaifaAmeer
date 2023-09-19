@@ -1,6 +1,7 @@
 import NavBar from "../Components/Nav-Bar/NavBar";
 import Hero from "../Components/Hero-Section/Hero";
 import HeroPagePic from "../Assets/AboutPage.jpg"
+import Footer from "../Components/Footer-Section/Footer";
 
 function About(){
     return (
@@ -13,6 +14,7 @@ function About(){
             text="Dream big, cause dreams do happen."
             url="https://github.com/huzaifameer"
             btnClass="hide" />
+            <Footer/>
         </>
     );
     

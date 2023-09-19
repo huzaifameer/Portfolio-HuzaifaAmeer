@@ -1,5 +1,6 @@
 import NavBar from "../Components/Nav-Bar/NavBar";
 import "./Contact-Styles.css"
+import Footer from "../Components/Footer-Section/Footer";
 
 function Contact(){
     return (
@@ -20,6 +21,7 @@ function Contact(){
                 <button type="submit">Send Message</button>
             </form>
         </div> 
+        <Footer/>
         </>
     );
     

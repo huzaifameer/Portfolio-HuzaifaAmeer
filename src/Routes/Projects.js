@@ -1,18 +1,20 @@
 import NavBar from "../Components/Nav-Bar/NavBar";
 import Hero from "../Components/Hero-Section/Hero";
-import ProjectPagePic from "../Assets/ProjectPage.jpg"
+import ProjectPage from "../Assets/ProjectPage.jpg"
+import Footer from "../Components/Footer-Section/Footer";
 
 function Project(){
     return (
         <>
         <NavBar />
         <Hero
-        cName="hero-proj"
-        heroImage={ProjectPagePic}
-        title="Our endeavours"
+        cName="hero-proj c-special"
+        heroImage={ProjectPage}
+        title="Our Endeavours"
         text=""
         btnClass="hide"
         />
+        <Footer/>
         </>
     );
     

@@ -15,12 +15,6 @@ export const MenuItems = [
       title: "Projects",
       URL: "/Projects",
       cName: "nav-links",
-      icon: "fa-solid fa-briefcase"
-    },
-    {
-      title: "Experience",
-      URL: "/Experience",
-      cName: "nav-links",
       icon: "fa-solid fa-laptop-file"
     }
   ];
