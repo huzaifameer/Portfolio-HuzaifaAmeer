@@ -1,6 +1,7 @@
 import NavBar from "../Components/Nav-Bar/NavBar";
 import Hero from "../Components/Hero-Section/Hero";
 import HomePagePic from "../Assets/HomePage.jpg"
+import Footer from "../Components/Footer-Section/Footer";
 
 function Home(){
     return (
@@ -14,6 +15,7 @@ function Home(){
         url="https://github.com/huzaifameer"
         btnClass="hide"
         />
+        <Footer/>
         </>
     );
     
