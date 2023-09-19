@@ -13,8 +13,9 @@
 }
 .contact-outer h1{
     padding: 0.8rem;
-    color: #fff;
-    background-color: #001A2D;
+    color: #001A2D;
+    background-color: #C6E1F5;
+    letter-spacing: 0.3rem;
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 20px;
@@ -57,7 +58,7 @@
     border-width: 3px;
 }
 .contact-outer button{
-    border: 2px solid #001A2D;
+    border: none;
     background-color: #AAD2EE;
     color: #001A2D;
     box-shadow: none;
@@ -95,7 +96,7 @@
         flex-basis: 48%;
     }
     .contact-outer h1{
-        border: 2px dotted #001A2D;
+        border: 2px solid #001A2D;
         padding: 0.5rem;
         color: #fff;
         text-align: center;
@@ -109,12 +110,13 @@
         padding: 10px 10px;
         border-color: #001A2D;
         margin-bottom: 15px;
+        outline: 2px solid #001A2D;
     }
     .contact-outer textarea{
         margin-bottom: 17px !important;
     }
     .contact-outer button{
-        border: 2px solid #001A2D;
+        border: none;
         background-color: #AAD2EE;
         color: #001A2D;
         box-shadow: none;
