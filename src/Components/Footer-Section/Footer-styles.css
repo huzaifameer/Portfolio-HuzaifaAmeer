@@ -9,9 +9,29 @@
 }
 .child-box{
     padding: 0.5rem;
-    border: 1px solid white;
+    
     width: 100%;
     height: 100%;
+}
+.child-box p{
+    font-size: 0.8rem;
+    padding: 0.6rem;
+}
+.child-box p i{
+    width: 20px;
+    height: 20px;
+}
+.child-box p a{
+    text-decoration: none;
+    color: #fff;
+}
+.child-box i a:hover{
+    background-color: #fff;
+    color: #001A2D;
+}
+.child-box a i{
+    color: #fff;
+    padding: 1rem;
 }
 @media screen and (max-width:850px) {
     .parent-box{
