@@ -9,8 +9,8 @@ function Home(){
         <Hero
         cName="hero-mid"
         heroImage={HomePagePic}
-        title="Hi Developer !"
-        text="Build your dream project with us."
+        title="A Fullstack Developer"
+        text="Building day by day."
         url="https://github.com/huzaifameer"
         btnClass="hide"
         />
