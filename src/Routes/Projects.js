@@ -2,6 +2,7 @@ import NavBar from "../Components/Nav-Bar/NavBar";
 import Hero from "../Components/Hero-Section/Hero";
 import ProjectPage from "../Assets/ProjectPage.jpg"
 import Footer from "../Components/Footer-Section/Footer";
+import Content from "../Components/project-content/Content";
 
 function Project(){
     return (
@@ -14,6 +15,7 @@ function Project(){
         text=""
         btnClass="hide"
         />
+        <Content/>
         <Footer/>
         </>
     );
