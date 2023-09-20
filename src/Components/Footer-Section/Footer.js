@@ -1,11 +1,14 @@
 import "./Footer-styles.css"
+import footerImage from "./SollydZ.png";
 
 function Footer(){
     return(
         <>
         <div className="parent-box">
-            <div className="child-box">
-                <div className="box-1-top"></div>
+            <div className="child-box box-sp">
+                <div className="box-1-top">
+                    <img src={footerImage}></img>
+                </div>
                 <div className="box-1-bottom"></div>
             </div>
             <div className="child-box">
