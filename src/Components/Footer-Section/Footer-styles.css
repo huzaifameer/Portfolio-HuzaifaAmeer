@@ -41,13 +41,13 @@
 }
 .box-1-top img{
     width: 90%;
-    height: 175%;
+    height: 205%;
     padding: 2px;
 }
 .box-1-bottom{
     height: 70%;
     position: relative;
-    top: 10px;
+    top: 20px;
 }
 .huzaifa{
     opacity: 12;

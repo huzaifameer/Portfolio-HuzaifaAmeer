@@ -22,11 +22,13 @@
   /* Style the image containers */
   .image-container {
     flex: 1;
+    border-radius: 10px;
   }
   
   /* Style the images inside the containers */
   .image-container img {
     width: 100%;
+    border-radius: 10px;
     height: 14rem;
     display: block;
     overflow: hidden;
