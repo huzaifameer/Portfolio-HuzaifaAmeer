@@ -40,16 +40,21 @@ body{
   .nav-links i {
     padding-right: 10px;
   }
-  .nav-links:hover {
+  .active ,.nav-links:hover {
     background-color: #001A2D;
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
   }
+  nav-bar-items .nav-links:active{
+    background-color: #04AA6D;
+    color: white;
+  }
   .nav-links-mobile {
     display: none;
   }
   button {
+    margin-left: 2rem;
     padding: 0.5rem 1rem;
     white-space: nowrap;
     border-radius: 0.4rem;
