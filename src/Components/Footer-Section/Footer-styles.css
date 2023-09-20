@@ -1,14 +1,17 @@
 .parent-box{
+    position: relative;
+    bottom: 0;
     background-color: #001A2D;
     color: #fff;
     display: flex;
-    height: auto;
+    height: 30vh;
     width: 100%;
     justify-content: space-between;
     padding: 2rem;
+    bottom: 0;
 }
 .child-box{
-    padding: 0.5rem;
+    padding: 0.2rem;
     width: 100%;
     height: 100%;
 }
@@ -37,10 +40,14 @@
     width: 100%;
 }
 .box-1-top img{
-    image-rendering: auto;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 175%;
     padding: 2px;
+}
+.box-1-bottom{
+    height: 70%;
+    position: relative;
+    top: 10px;
 }
 @media screen and (max-width:850px) {
     .parent-box{
@@ -49,7 +56,6 @@
         height: auto;
     }
     .child-box{
-        border: 1px solid white;
         width: 100%;
         height: auto;
     }
