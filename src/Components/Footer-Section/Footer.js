@@ -27,7 +27,7 @@ function Footer(){
                 <a href="#"><i class="fa-brands fa-github"></i></a>
             </div>
             <div className="child-box">
-                <img src={huzaifaPic} alt="Huzaifa"></img>
+                <img className="huzaifa" src={huzaifaPic} alt="Huzaifa"></img>
             </div>
         </div>
         </>

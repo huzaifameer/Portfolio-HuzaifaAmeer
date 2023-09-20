@@ -49,6 +49,10 @@
     position: relative;
     top: 10px;
 }
+.huzaifa{
+    opacity: 12;
+    border-radius: 12px;
+}
 @media screen and (max-width:850px) {
     .parent-box{
         display: flex;
